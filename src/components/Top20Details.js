@@ -3,7 +3,7 @@ const Top20Details = ({top20}) => {
   
     return (
       <>
-      <h3>bob</h3>
+      <h3>bob: {top20.feed['author']['name']['label']}</h3>
       <p>bob</p>
       </>
     )
