@@ -24,4 +24,22 @@ const Top20Container = (() => {
 
     };
 
+
+    useEffect(() => {
+
+        getTop20();
+
+    },[])
+
+    return (
+        <>
+            <h1>Top20 Info</h1>
+            <Top20Selector />
+            <Top20Details top20={top20} />
+        
+        </>
+    )
+
 });
+
+export default Top20Container;
