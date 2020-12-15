@@ -1,5 +1,7 @@
 const Top20Details = ({name, artist, position}) => {
-    // if (!top20) return null;
+    
+    // Top20 Details are shown below
+    // Top20 Details takes in name, artist and position as gathered from JSON
   
     return (
       <>

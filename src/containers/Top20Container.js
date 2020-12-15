@@ -35,8 +35,6 @@ const Top20Container = () => {
     return (
         <>
             <h1>Top 20 Songs In The UK Currently 💽 </h1>
-            {/* <Top20Selector />
-            <Top20Details top20={top20} /> */}
             <Top20Selector top20={top20.feed.entry} />
         
         </>
