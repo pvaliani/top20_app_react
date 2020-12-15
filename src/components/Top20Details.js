@@ -3,8 +3,8 @@ const Top20Details = ({top20}) => {
   
     return (
       <>
-      <h3>bob: {top20.feed['author']['name']['label']}</h3>
-      <p>bob</p>
+      <h3>Entry1: {top20.feed['author']['name']['label']}</h3>
+      <p>Entry2: {top20.feed['entry'][0]['title']['label']} </p>
       </>
     )
   };
