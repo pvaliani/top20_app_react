@@ -1,10 +1,11 @@
-const Top20Details = ({top20}) => {
-    if (!top20) return null;
+const Top20Details = ({name, artist, position}) => {
+    // if (!top20) return null;
   
     return (
       <>
-      <h3>Entry1: {top20.feed['author']['name']['label']}</h3>
-      <p>Entry2: {top20.feed['entry'][0]['title']['label']} </p>
+      <h2>Song Title: {name}</h2>
+      <h4>Artist: {artist} </h4>
+      <h4>Chart Position: {position}</h4>
       </>
     )
   };

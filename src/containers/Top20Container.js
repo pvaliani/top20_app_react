@@ -29,13 +29,15 @@ const Top20Container = () => {
 
         getTop20();
 
-    },[])
+    },[]);
+    if(!top20) return null;
 
     return (
         <>
-            <h1>Top20 Info</h1>
-            <Top20Selector />
-            <Top20Details top20={top20} />
+            <h1>Top 20 Songs In The UK Currently 💽 </h1>
+            {/* <Top20Selector />
+            <Top20Details top20={top20} /> */}
+            <Top20Selector top20={top20.feed.entry} />
         
         </>
     )
