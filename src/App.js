@@ -1,4 +1,4 @@
-import Top20Container from "./containers/LaunchContainer";
+import Top20Container from "./containers/Top20Container";
 
 import './App.css';
 

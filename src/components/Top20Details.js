@@ -3,8 +3,8 @@ const Top20Details = ({top20}) => {
   
     return (
       <>
-      <h3>{top20.mission_name}</h3>
-      <p>Top20 Info: {top20.rocket.rocket_name}</p>
+      <h3>bob</h3>
+      <p>bob</p>
       </>
     )
   };

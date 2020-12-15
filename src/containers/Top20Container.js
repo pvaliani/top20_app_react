@@ -18,7 +18,7 @@ const Top20Container = () => {
         })
 
         .then((data) => {
-            setLaunch(data);
+            setTop20(data);
 
         })
 
