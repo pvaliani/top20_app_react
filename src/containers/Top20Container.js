@@ -3,7 +3,7 @@ import {useState, useEffect} from "react"
 import Top20Selector from "../components/Top20Selector";
 import Top20Details from "../components/Top20Details";
 
-const Top20Container = (() => {
+const Top20Container = () => {
 
     const [top20, setTop20] = useState(null);
 
@@ -40,6 +40,6 @@ const Top20Container = (() => {
         </>
     )
 
-});
+};
 
 export default Top20Container;
