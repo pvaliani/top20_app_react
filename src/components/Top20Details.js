@@ -2,6 +2,8 @@ const Top20Details = ({name, artist, position}) => {
     
     // Top20 Details are shown below
     // Top20 Details takes in name, artist and position as gathered from JSON
+    // If looking at solutions this is the song component
+    
   
     return (
       <>

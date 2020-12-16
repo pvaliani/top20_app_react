@@ -1,6 +1,7 @@
 import Top20Details from "./Top20Details"
 
     // Selector takes in top20 which is the containers state array tracking all song objects
+    // Could pass a full song object and for each song in array of songs, render a <Song/> component
 
 const Top20Selector = ({top20}) => {
 
